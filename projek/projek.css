@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: pink;
+}
+
+a {
+    text-decoration: none;
+    color: brown;
+
+}
+
+
+
+li:hover {
+    background-color: rgba(165, 42, 42, 0.245);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+li a:hover {
+    color: white;
+}
+
+li {
+    list-style-type: none;
+    float: right;
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+nav {
+    width: 70%;
+    left: 215px;
+    position: fixed;
+    height: 80px;
+    background-color: beige;
+    padding: 0 60px;
+    display: flex;
+    justify-content:space-between
+    
+    
+}
+
+nav h1 {
+    margin-top: 25px;
+}
+
+.gambar article {
+    margin-top: 200px;
+    margin-left: 20px;
+    font-size: 50px;
+    
+}
+
+.gambar {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.gambar-aside {
+    margin-top: 200px;
+    margin-right: 120px;
+    border-radius: 70px;
+    padding-bottom: 20px;
+}
+ 
+.bebas {
+    background-color: beige;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+
+.sando {
+    width: 100px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin:  0px 200px 0px 200px;
+    border-radius: 0px 0px 12px 12px;
+    margin-left: ;
+}
+
+.a1 {
+    margin: 20px;
+    height: 300px;
+    width: 200px;
+    background-color: peachpuff;
+    border-radius: 20px;
+    flex-grow: 100;
+    text-align: center;
+
+}
+
+.i1 {
+    width: 240px;
+    border-radius: 20px;
+}
+
+.judul {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 50px;
+}
+

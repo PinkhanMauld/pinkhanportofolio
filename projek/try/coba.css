@@ -1,0 +1,116 @@
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    padding-right: 40px;
+    padding-top: 15px;
+    color: white;
+}
+
+header {
+    display: flex;
+    background-color: brown;
+    color: white;
+    
+}
+
+nav {
+    margin-left: 100px;
+}
+
+.logo {
+    margin-left: 100px;
+    font-style: italic;
+}
+
+.i1{
+    height: 100px;
+    width: 100px;
+    background-color: peachpuff;
+}
+
+.i2 {
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+}
+
+.i3 {
+    height: 100px;
+    width: 100px;
+    background-color: plum;
+}
+
+.container {
+    display: flex;
+    
+}
+
+.a1 {
+    height: 400px;
+    width: 400px;
+    background-color: plum;
+    border-radius: 0px 0px 12px 12px;
+    text-align: center;
+    display: flex;
+    
+}
+
+.a2 {
+    height: 400px;
+    width: 400px;
+    background-color: peachpuff;
+    margin-right: 50px;
+    margin-left: 50px;
+    border-radius: 0px 0px 12px 12px;
+    text-align: center;
+    display: flex;
+}
+
+.a3 {
+    height: 400px;
+    width: 400px;
+    background-color: pink;
+    border-radius: 0px 0px 12px 12px;
+    text-align: center;
+    display: flex;
+}
+
+.container-2 {
+    display: flex;
+    margin-top: 100px;
+}
+
+.a1m {
+    width: 200px;
+}
+
+p {
+    text-align: center;
+    font-size: 30px;
+}
+
+.btn {
+    background-color: rgba(0, 128, 0, 0.63);
+   
+    border-radius: 12px;
+    text-align: center;
+    align-items: center;
+    padding: 10px 20px;
+    display: flex;
+}
+
+.btn:hover {
+    background-color: yellow;
+    transition: 0.3s;
+    border: yellow;
+    box-shadow: 1px;
+    display: flex;
+}
+
+.ktp img {
+    width: 800px;
+    height: 400px;
+}
